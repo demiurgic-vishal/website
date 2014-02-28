@@ -127,26 +127,20 @@ body {
 /* Services */
 
 .services {
-  background: #7fbbda;
-  padding: 50px 0;
-  color: #ffffff;
+  
+  display: table;
+  padding-top: 13%;
+  padding-right: 1%;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/DS4.jpg) no-repeat center right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.service-item {
-  margin-bottom: 15px;
-}
-
-i.service-icon {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle; 
-  text-align: center;
-}
 
 /* Callout */
 
@@ -155,7 +149,7 @@ i.service-icon {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/callout.jpg) no-repeat center center fixed; 
+  background: url(../img/DS5.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -197,9 +191,7 @@ i.service-icon {
 
 /* Footer */
 
-footer {
-  padding: 100px 0;
-}
+
 
 .top-scroll {
   margin-top: 50px;
